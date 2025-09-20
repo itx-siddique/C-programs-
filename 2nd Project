@@ -1,0 +1,25 @@
+// The second program is to know the value of x and in system of equations by putting values of other variables
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    float a1,a2,b1,b2,c1,c2,x,y;
+    cout<<"Enter a1";
+    cin>>a1;
+    cout<<"Enter a2";
+    cin>>a2;
+    cout<<"b1";
+    cin>>b1;
+    cout<<"b2";
+    cin>>b2;
+    cout<<"c1";
+    cin>>c1;
+    cout<<"c2";
+    cin>>c2;
+    x=(c1*b2-b1*c2)/(a1*b2-a2*b1);
+    y=(a1*c2-a2*c1)/(a1*b2-a2*b1);
+    cout<<"x is"<<x<<endl;
+    cout<<"y is"<<y<<endl;
+    return 0;
+}
