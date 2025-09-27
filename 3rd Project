@@ -1,0 +1,13 @@
+// A Program to calculate area of rectangle
+#include <iostream>
+using namespace std;
+int main()
+{
+	float l,w;
+	cout<<"Enter length: ";
+	cin>>l;
+	cout<<"Enter width: ";
+	cin>>w;
+	cout<<"The area of rectangle is: "<<l*w;
+	return 0;
+}
