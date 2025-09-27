@@ -1,0 +1,11 @@
+// A Program to calculate area of a sphere
+#include <iostream>
+using namespace std;
+int main()
+{
+	float r,a,pi=3.1415;
+	cout<<"Value of r: ";
+	cin>>r;
+	cout<<"Area of spehere is "<<4*pi*r*r;
+	return 0;
+}
