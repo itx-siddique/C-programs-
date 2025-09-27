@@ -1,0 +1,11 @@
+// A Program to calculate volume of sphere
+#include <iostream>
+using namespace std;
+int main()
+{
+	float r,pi=3.1415;
+	cout<<"Value of r: ";
+	cin>>r;
+	cout<<"Volume of sphere is "<<(4/3)*pi*r*r*r;
+	return 0;
+}
