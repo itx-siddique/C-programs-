@@ -1,0 +1,13 @@
+// Program to find volume of a cylinder
+#include <iostream>
+using namespace std;
+int main()
+{
+	float pi=3.1415,r,h;
+	cout<<"Enter value of r: ";
+	cin>>r;
+	cout<<"Enter value of h: ";
+	cin>>h;
+	cout<<"Volume of cylinder is"<<pi*r*r*h;
+	return 0;
+}
