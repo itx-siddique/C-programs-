@@ -1,0 +1,28 @@
+// A program to find average marks and submission of application of students on the basis of particular roll numbers through nested if.
+#include <iostream>
+using namespace std;
+int main()
+{
+	int rollno;
+	cout<<"Enter your roll no: ";
+	cin>>rollno;
+	if(rollno>=10 && rollno<=25)
+	{float phy,bio,chem;
+	cout<<"Enter your phy,bio,chem marks: ";
+    // Eligibility check	
+	cin>>phy>>bio>>chem;
+	
+	if(phy>=50 && chem>=50 && bio>=55 )
+	{ char choice;
+	cout<<"You are eligible,Are you sure to apply for the selected program?,Then Press y: ";
+	cin>>choice;
+	
+	if(choice== 'Y' || choice== 'y')
+	{cout<<"\n Successfully submitted and your aggregate is: "<<(phy+bio+chem)/3;
+	}	else cout<<"\n Submission canceled"; 
+	
+	}else cout<<"\n You are not eligible";
+	
+	}else cout<<"\n Your roll no is not in the list";
+	
+}
